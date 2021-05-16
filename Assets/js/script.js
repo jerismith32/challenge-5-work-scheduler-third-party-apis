@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#currentDay").text(moment().format("MMM Do YY"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
     var currenttime = moment().hours();
 
     $( "textarea" ).each(function() {
