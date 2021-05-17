@@ -39,12 +39,26 @@ Contributions made by Jeri Smith
 
 ## References
 [Moment.js](https://momentjs.com/)
+
+
 [Formatting Moment](https://devhints.io/moment)
+
+
 [Bootstrap Horizontal Alignment](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
+
+
 [jQuery .each()](https://api.jquery.com/each/)
+
+
 [jQuery .addClass()](https://api.jquery.com/addclass/)
+
+
 [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+
 [Save Icon](https://fontawesome.com/icons/save)
+
+
 [W3 Schools Local Storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 
 
