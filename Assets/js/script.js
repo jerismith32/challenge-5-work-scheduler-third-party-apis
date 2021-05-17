@@ -6,8 +6,22 @@ $(document).ready(function(){
         var timeSlot = $(this).parent().attr("time");
 
         //Saves to local storage
-        localStorage.setItem(timeSlot, userInput);
+        localStorage.setItem(timeSlot, JSON.stringify(userInput));
+
+        //localStorage.setItem(timeSlot, userInput)
     })
+
+    //This will load any of the saved data that was stored in local storage and display it for the user on the page
+    $("#9 .description").val(localStorage.getItem("9"));
+    $("#10 .description").val(localStorage.getItem("10"));
+    $("#11 .description").val(localStorage.getItem("11"));
+    $("#12 .description").val(localStorage.getItem("12"));
+    $("#13 .description").val(localStorage.getItem("13"));
+    $("#14 .description").val(localStorage.getItem("14"));
+    $("#15 .description").val(localStorage.getItem("15"));
+    $("#16 .description").val(localStorage.getItem("16"));
+    $("#17 .description").val(localStorage.getItem("17"));
+
 })
 
 
