@@ -2,8 +2,11 @@
 $(document).ready(function(){
     //Click listener for the save buttons
     $(".saveBtn").on("click", function () {
+        console.log($(this).siblings(".description"));
         var userInput = $(this).siblings(".description").val().trim();
-        var timeSlot = $(this).parent().attr("time");
+        console.log(userInput);
+        var timeSlot = $(this).prev().attr("time");
+        console.log(timeSlot);
 
         //Saves to local storage
         localStorage.setItem(timeSlot, JSON.stringify(userInput));
@@ -12,15 +15,15 @@ $(document).ready(function(){
     })
 
     //This will load any of the saved data that was stored in local storage and display it for the user on the page
-    $("#9 .description").val(localStorage.getItem("9"));
-    $("#10 .description").val(localStorage.getItem("10"));
-    $("#11 .description").val(localStorage.getItem("11"));
-    $("#12 .description").val(localStorage.getItem("12"));
-    $("#13 .description").val(localStorage.getItem("13"));
-    $("#14 .description").val(localStorage.getItem("14"));
-    $("#15 .description").val(localStorage.getItem("15"));
-    $("#16 .description").val(localStorage.getItem("16"));
-    $("#17 .description").val(localStorage.getItem("17"));
+    $("#9").val(localStorage.getItem("9"));
+    $("#10").val(localStorage.getItem("10"));
+    $("#11").val(localStorage.getItem("11"));
+    $("#12").val(localStorage.getItem("12"));
+    $("#13").val(localStorage.getItem("13"));
+    $("#14").val(localStorage.getItem("14"));
+    $("#15").val(localStorage.getItem("15"));
+    $("#16").val(localStorage.getItem("16"));
+    $("#17").val(localStorage.getItem("17"));
 
 })
 

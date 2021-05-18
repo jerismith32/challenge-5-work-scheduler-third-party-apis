@@ -31,7 +31,7 @@ THEN the saved events persist
 [Work Day Scheduler](https://jerismith32.github.io/challenge-5-work-scheduler-third-party-apis/)
 
 ## Website Screenshots
-![Screnshot](Assets/images/Screen Shot 2021-05-16 at 8.09.49 PM.png)
+![Screnshot](Assets/images/READMEimage.png)
 
 
 ## Contributions
